@@ -9,7 +9,6 @@ export const Game = () => {
 	const [win, setWin] = useState(false)
 	const [draw, setDraw] = useState(false)
 
-
 	const handleClick = (index) => {
 		if (field[index] || win || draw) return
 
