@@ -1,6 +1,6 @@
 .field {
 	display: flex;
-	gap: 5px;
+	gap: 7px;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	max-width: calc(450px + 15px);
@@ -14,6 +14,7 @@
 	background-color: inherit;
 	border-radius: 5px;
 	border: 3px solid yellow;
+	box-shadow: 2px 2px 2px;
 	padding: 10px;
 	font-size: 50px;
 	color: rgb(77, 227, 255);
