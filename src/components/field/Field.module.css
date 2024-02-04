@@ -1,0 +1,20 @@
+.field {
+	display: flex;
+	gap: 5px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: calc(450px + 15px);
+}
+
+.cell {
+	display: block;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+	background-color: inherit;
+	border-radius: 5px;
+	border: 3px solid yellow;
+	padding: 10px;
+	font-size: 50px;
+	color: rgb(77, 227, 255);
+}
