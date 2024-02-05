@@ -1,4 +1,5 @@
-import { GetPath } from '../../utils/get-path'
+import {GetPath} from '../../utils/get-path'
+import PropTypes from 'prop-types'
 import style from './Field.module.css'
 
 export const FieldLayout = ({ field, onClick }) => {
@@ -15,4 +16,9 @@ export const FieldLayout = ({ field, onClick }) => {
 			))}
 		</div>
 	)
+}
+
+FieldLayout.propTypes = {
+	field: PropTypes.array,
+	onClick: PropTypes.func,
 }

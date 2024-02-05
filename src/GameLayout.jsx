@@ -29,7 +29,10 @@ export const GameLayout = ({ props }) => {
 }
 
 GameLayout.propTypes = {
+	field: PropTypes.array,
 	currentPlayer: PropTypes.string,
 	win: PropTypes.string,
 	draw: PropTypes.string,
+	handleReset: PropTypes.func,
+	handleClick: PropTypes.func,
 }
