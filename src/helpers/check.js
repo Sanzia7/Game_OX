@@ -1,9 +1,9 @@
-import { WIN_PATTERNS } from './win-patterns'
+import { WIN_PATTERNS } from '../constants/win-patterns';
 
-export const isDraw = (field) => field.every((cell) => cell)
+export const isDraw = (field) => field.every((cell) => cell);
 
 export const isWin = (field, currentPlayer) =>
-	WIN_PATTERNS.some((pattern) => pattern.every((ind) => field[ind] === currentPlayer))
+	WIN_PATTERNS.some((pattern) => pattern.every((idx) => field[idx] === currentPlayer));
 
 //------------------------------------------------------
 // метод every() позволяет проверить (в порядке возрастания индекса), все ли элементы в массиве соответствуют условию заданному в передаваемой функции.

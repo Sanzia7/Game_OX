@@ -1,5 +1,4 @@
-export const field = new Array(9).fill('')
-
+export const field = new Array(9).fill('');
 
 // field — массив клеток игрового поля, состоящий из 9 пустых строк (3x3)
 //----------------------------------------

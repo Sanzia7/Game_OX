@@ -1,5 +1,5 @@
-import { FieldLayout } from './FieldLayout'
+import { FieldLayout } from './FieldLayout';
 
 export const FieldContainer = (props) => {
-	return <FieldLayout {...props} />
-}
+	return <FieldLayout {...props} />;
+};

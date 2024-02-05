@@ -1,9 +1,9 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 export const GetPath = (cell) => {
-	return cell === 'X' ? 'X' : 'O'
-}
+	return cell === 'X' ? 'X' : 'O';
+};
 
 GetPath.propTypes = {
 	cel: PropTypes.string,
-}
+};
