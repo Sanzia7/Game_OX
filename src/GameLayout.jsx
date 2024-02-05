@@ -21,7 +21,7 @@ export const GameLayout = ({ props }) => {
 					className={style.reset}
 					onClick={handleReset}
 				>
-					Начать заново ...
+					Начать заново
 				</button>
 			</div>
 		</div>
