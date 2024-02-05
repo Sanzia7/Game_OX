@@ -9,10 +9,10 @@ export const Game = () => {
 	const [win, setWin] = useState(false);
 	const [draw, setDraw] = useState(false);
 
-	const handleClick = (idx) => {
-		if (field[idx] || win || draw) return;
+	const handleClick = (idxCell) => {
+		if (field[idxCell] || win || draw) return;
 
-		const newField = field.map((cell, idx) => (idx === idx ? currentPlayer : cell));
+		const newField = field.map((cell, idx) => (idx === idxCell ? currentPlayer : cell));
 
 		setField(newField);
 
